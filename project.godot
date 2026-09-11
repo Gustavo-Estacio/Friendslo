@@ -24,6 +24,8 @@ Global="*uid://c3dabc82f0rq5"
 [display]
 
 window/size/always_on_top=true
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
 
 [editor_plugins]
 

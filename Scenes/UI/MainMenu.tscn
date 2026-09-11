@@ -2,9 +2,15 @@
 
 [ext_resource type="Script" uid="uid://b1l67xupujgtd" path="res://Scripts/UI/main_menu.gd" id="1_mjmdf"]
 [ext_resource type="Texture2D" uid="uid://b4o7vx0n8db1s" path="res://addons/tube/icons/tube_client.svg" id="2_eiy7p"]
+[ext_resource type="Texture2D" uid="uid://bkeuqqds2wlsr" path="res://Assets/UI/Gemini_Generated_Image_k7aow2k7aow2k7ao.jpg" id="3_72sra"]
 
 [node name="MainMenu" type="CanvasLayer" unique_id=555055330]
 script = ExtResource("1_mjmdf")
+
+[node name="GeminiGeneratedImageK7Aow2k7Aow2k7Ao" type="Sprite2D" parent="." unique_id=1985207494]
+position = Vector2(587, 329)
+scale = Vector2(0.8515625, 0.8515625)
+texture = ExtResource("3_72sra")
 
 [node name="Control" type="Control" parent="." unique_id=598734380]
 layout_mode = 3
@@ -61,11 +67,6 @@ text = "Quit"
 unique_name_in_owner = true
 layout_mode = 2
 alignment = 1
-
-[node name="LabelTitle" type="Label" parent="Control/PanelContainer/MarginContainer/HBoxContainer/TubeMenu" unique_id=26236701]
-layout_mode = 2
-theme_override_font_sizes/font_size = 32
-text = "Main Menu"
 
 [node name="LabelSessionid" type="Label" parent="Control/PanelContainer/MarginContainer/HBoxContainer/TubeMenu" unique_id=1120014569]
 layout_mode = 2

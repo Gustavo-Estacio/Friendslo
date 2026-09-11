@@ -1,14 +1,13 @@
 [gd_scene format=3 uid="uid://be342wrf0687"]
 
 [ext_resource type="Script" uid="uid://bcnetufi5wixg" path="res://Scripts/Entities/ball.gd" id="1_41u45"]
-[ext_resource type="Texture2D" uid="uid://ch42bnnbke7fp" path="res://addons/kenney_prototype_textures/dark/texture_04.png" id="1_x8fbi"]
+[ext_resource type="Texture2D" uid="uid://d03cl0vgjwra5" path="res://addons/kenney_prototype_textures/green/texture_11.png" id="2_bds8w"]
 
 [sub_resource type="SphereShape3D" id="SphereShape3D_41u45"]
 radius = 0.2
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ktgx5"]
-albedo_color = Color(1, 0.01999998, 0.01999998, 1)
-albedo_texture = ExtResource("1_x8fbi")
+albedo_texture = ExtResource("2_bds8w")
 uv1_scale = Vector3(5.485, 5.485, 5.485)
 
 [sub_resource type="SphereMesh" id="SphereMesh_hgol0"]
